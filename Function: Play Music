@@ -8,3 +8,8 @@ public void playMusic(){
         System.out.println("Music is paused");
     } 
 }
+
+-------------------------------------------------------------------------------
+OUTPUT:
+
+AWESOME
