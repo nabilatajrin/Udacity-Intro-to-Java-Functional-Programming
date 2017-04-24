@@ -1,0 +1,10 @@
+boolean playButton; // true or false
+
+public void playMusic(){
+   if(playButton == true){
+    System.out.println("Music is playing");
+    }
+    else{
+        System.out.println("Music is paused");
+    } 
+}
