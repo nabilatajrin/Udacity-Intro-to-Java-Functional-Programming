@@ -9,7 +9,21 @@ public void playMusic(){
     } 
 }
 
+##
+OR
+##
+
+boolean playButton = true; // true or false
+
+public void playMusic(){
+   if(playButton){
+    System.out.println("Music is playing");
+    }
+    else{
+        System.out.println("Music is paused");
+    } 
+}
+
 -------------------------------------------------------------------------------
 OUTPUT:
-
 AWESOME
