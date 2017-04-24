@@ -1,0 +1,17 @@
+public void weatherInterpreter(int temperatire){
+    if(temperature>30){
+        System.out.println("It's hot outside!");    
+    }
+    else if(temperature<5){
+        System.out.println("Brr, consider wearing a jacket.");    
+    }
+    else{
+        System.out.println("Not too hot, not too cold.");    
+    }
+}
+
+-------------------------------------------------------------------
+OUTPUT:
+Brr, consider wearing a jacket.
+It's hot outside!
+
