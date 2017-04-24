@@ -1,0 +1,11 @@
+public void admission (double height) {
+    //check height reqs
+    if (height>120) {
+        System.out.println("You pass the height requirements.");
+    }
+    else {
+        System.out.println("Sorry, you do not pass.");
+    }
+}
+
+
