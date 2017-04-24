@@ -1,0 +1,14 @@
+public void likePhoto(int currentLikes, String comment, boolean like) {
+    //print out comment, and who is commenting
+    System.out.println("Feedback: " + comment);
+    if (like) {
+        //increase number of likes by 1.
+        currentLikes = currentLikes + 1;
+    }
+    System.out.println("Number of likes: " + currentLikes);
+}
+----------------------------------------------------------------------
+
+Write the function call here: 
+    likePhoto(3, "good", true);
+    
