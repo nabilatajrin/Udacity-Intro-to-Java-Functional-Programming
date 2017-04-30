@@ -1,0 +1,19 @@
+//What will the function call: Math.max(20, 15); output?
+//max
+
+public static int max(int a, int b)
+
+Returns the greater of two int values. That is, the result is the argument closer to the value of Integer.MAX_VALUE. If the arguments have the same value, the result is the same value.
+
+Parameters:
+
+a - an argument.
+b - another argument.
+
+Returns:
+The larger of a, and b.
+
+Fill in the blanks:
+
+    1. type _____int
+    2. value: _____20
