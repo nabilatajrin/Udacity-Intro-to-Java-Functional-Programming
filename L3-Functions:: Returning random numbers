@@ -1,0 +1,16 @@
+//This isn't a program but showed the methods to return random numbers.
+
+//To return a random decimal value between 0 and 1 (range includes 0 but not 1):
+    Math.random();
+    
+//Random numbers between 0, and (almost) 1:
+    double randomNumber = Math.random();
+    
+//Change range to 0 to (almost) 10:
+    randomNumber = randomNumber * 10; //e.g: 0 * 10 = 0 (min), 0.999 * 10 = 9.99 (max)
+    
+//Cast to integer, ignore decimal part:
+//ex. 9.985 becomes 9
+    int randomInt = (int) randomNumber; //This is casting. Turning one variable type into another. (ex. double to an int).
+    
+//That method above showes the way to print integers from 0 to 9.
