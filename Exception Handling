@@ -1,0 +1,45 @@
+package practice;
+
+import java.util.Scanner;
+
+public class Practice {
+
+    public static void main(String[] args) {
+        int num, deno;
+        Scanner input = new Scanner(System.in);
+        try{
+            System.out.print("Please enter the numerator: ");
+            num = input.nextInt();
+            
+            System.out.print("Please enter the denominator: ");
+            deno = input.nextInt();
+            
+            System.out.println("The result is " + num/deno);
+        }catch(Exception e){
+            System.out.println(e.getMessage());
+        }finally{
+            System.out.println("-----End of error handling example-----");
+        }
+    }
+}
+----------------------------------------------------------------------------
+Output:
+######
+Please enter the numerator: 4
+Please enter the denominator: 3
+The result is 1
+-----End of error handling example-----
+BUILD SUCCESSFUL (total time: 3 seconds)
+---
+Please enter the numerator: 9
+Please enter the denominator: 3
+The result is 3
+-----End of error handling example-----
+BUILD SUCCESSFUL (total time: 6 seconds)
+
+---
+Please enter the numerator: 1
+Please enter the denominator: 4
+The result is 0
+-----End of error handling example-----
+BUILD SUCCESSFUL (total time: 4 seconds)
