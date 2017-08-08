@@ -43,3 +43,10 @@ Please enter the denominator: 4
 The result is 0
 -----End of error handling example-----
 BUILD SUCCESSFUL (total time: 4 seconds)
+---
+Please enter the numerator: 2
+Please enter the denominator: 0
+/ by zero
+-----End of error handling example-----
+BUILD SUCCESSFUL (total time: 3 seconds)
+
