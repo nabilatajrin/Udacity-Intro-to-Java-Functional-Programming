@@ -1,2 +1,2 @@
 # udacity-intro-to-java-functional-programming
-Some quiz answers from the Udacity MOOC Intro to Java: Functional Programming.
+This repository contains some quiz's answers from the Udacity MOOC titled 'Intro to Java: Functional Programming'.
